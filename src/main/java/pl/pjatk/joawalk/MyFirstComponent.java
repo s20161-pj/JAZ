@@ -12,7 +12,11 @@ public class MyFirstComponent {
                             CarPOJO carPOJO,
                             List<String> defaultData,
                             List<String>anotherDefaultData,
-                            List<CarPOJO>carPOJOS){
+                            List<CarPOJO>carPOJOS,
+                            Pies pies,
+                            Pies pies2
+
+    ){
         //System.out.println("Hello from MyFirstComponent");
         //mySecondComponent.helloFromMethod();
         //carPOJO.print();
@@ -20,6 +24,8 @@ public class MyFirstComponent {
         //System.out.println(anotherDefaultData);
         //System.out.println(carPOJOS);
         System.out.println(properties.getProperty());
+        System.out.println(pies.getImie());
+        System.out.println(pies2.getImie());
     }
 }
 
